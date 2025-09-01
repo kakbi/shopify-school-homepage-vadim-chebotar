@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Stellar Soft</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/styles.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__container container">
+                <button
+                    class="menu__icon"
+                    aria-label="Open menu"
+                    aria-expanded="false"
+                    aria-controls="main-menu"
+                >
+                    <span></span>
+                </button>
+
+                <div class="header__logo">
+                    <a href="#" class="header__logo-link">
+                        <img
+                            src="./img/icons/logo.svg"
+                            alt="Company logo"
+                            class="header__logo-image"
+                        />
+                    </a>
+                </div>
+
+                <nav class="header__navigation menu__body">
+                    <ul class="header__navigation-list">
+                        <li class="header__navigation-item">
+                            <a href="#" class="header__navigation-link"
+                                >New & Featured</a
+                            >
+                        </li>
+                        <li class="header__navigation-item">
+                            <a href="#" class="header__navigation-link">Men</a>
+                        </li>
+                        <li class="header__navigation-item">
+                            <a href="#" class="header__navigation-link"
+                                >Women</a
+                            >
+                        </li>
+                        <li class="header__navigation-item">
+                            <a href="#" class="header__navigation-link">Kids</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="header__actions">
+                    <a href="#cart" class="header__cart">
+                        <span class="header__cart-icon">
+                            <img
+                                src="./img/icons/cart.svg"
+                                alt="Cart"
+                                class="header__cart-image"
+                            />
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="hero">
+                <div class="hero-slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide hero-slider__slide">
+                            <div class="hero-slider__image">
+                                <picture>
+                                    <source
+                                        media="(max-width: 768px)"
+                                        srcset="./img/swiper-mobile-image-1.jpg"
+                                    />
+                                    <img
+                                        src="./img/swiper-image-1.jpg"
+                                        alt="swiper-image-1"
+                                    />
+                                </picture>
+                                <div class="container">
+                                    <div class="hero-slider__content">
+                                        <h1 class="hero-slider__title">
+                                            MORE THAN JUST SHOES — IT'S A PART
+                                            OF YOUR STORY.
+                                        </h1>
+                                        <p class="hero-slider__subtitle">
+                                            Original sneakers from Nike and
+                                            other top brands that make every
+                                            step <br />
+                                            feel special.
+                                        </p>
+                                        <a
+                                            href="#"
+                                            class="hero-slider__cta-button"
+                                            >Shop the Collection</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide hero-slider__slide">
+                            <div class="hero-slider__image">
+                                <img
+                                    src="./img/swiper-image-2.jpg"
+                                    alt="swiper-image-2"
+                                />
+                                <div class="container">
+                                    <div class="hero-slider__content">
+                                        <h1 class="hero-slider__title">
+                                            MORE THAN JUST SHOES — IT'S A PART
+                                            OF YOUR STORY.
+                                        </h1>
+                                        <p class="hero-slider__subtitle">
+                                            Original sneakers from Nike and
+                                            other top brands that make every
+                                            step <br />
+                                            feel special.
+                                        </p>
+                                        <a
+                                            href="#"
+                                            class="hero-slider__cta-button"
+                                            >Shop the Collection</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide hero-slider__slide">
+                            <div class="hero-slider__image">
+                                <img
+                                    src="./img/swiper-image-3.jpg"
+                                    alt="swiper-image-3"
+                                />
+                                <div class="container">
+                                    <div class="hero-slider__content">
+                                        <h1 class="hero-slider__title">
+                                            MORE THAN JUST SHOES — IT'S A PART
+                                            OF YOUR STORY.
+                                        </h1>
+                                        <p class="hero-slider__subtitle">
+                                            Original sneakers from Nike and
+                                            other top brands that make every
+                                            step <br />
+                                            feel special.
+                                        </p>
+                                        <a
+                                            href="#"
+                                            class="hero-slider__cta-button"
+                                            >Shop the Collection</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <section class="featured">
+                <div class="container">
+                    <h2 class="featured__title">Featured Collection</h2>
+
+                    <div class="featured-wrapper">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                        <div class="featured-slider swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide featured__card">
+                                    <img
+                                        src="./img/product-1.jpg"
+                                        alt="Nike Streakfly 2"
+                                        class="featured__image"
+                                    />
+                                    <h3 class="featured__name">
+                                        Nike Streakfly 2
+                                    </h3>
+                                    <p class="featured__price">$300.00</p>
+                                </div>
+
+                                <div class="swiper-slide featured__card">
+                                    <img
+                                        src="./img/product-2.jpg"
+                                        alt="Nike Pegasus Premium"
+                                        class="featured__image"
+                                    />
+                                    <h3 class="featured__name">
+                                        Nike Pegasus Premium
+                                    </h3>
+                                    <p class="featured__price">$350.00</p>
+                                </div>
+
+                                <div class="swiper-slide featured__card">
+                                    <img
+                                        src="./img/product-3.jpg"
+                                        alt="Nike Pegasus 41"
+                                        class="featured__image"
+                                    />
+                                    <h3 class="featured__name">
+                                        Nike Pegasus 41
+                                    </h3>
+                                    <p class="featured__price">$280.00</p>
+                                </div>
+
+                                <div class="swiper-slide featured__card">
+                                    <img
+                                        src="./img/product-4.jpg"
+                                        alt="Nike Revolution 7"
+                                        class="featured__image"
+                                    />
+                                    <h3 class="featured__name">
+                                        Nike Revolution 7
+                                    </h3>
+                                    <p class="featured__price">$440.00</p>
+                                </div>
+
+                                <div class="swiper-slide featured__card">
+                                    <img
+                                        src="./img/product-2.jpg"
+                                        alt="Nike Pegasus Premium"
+                                        class="featured__image"
+                                    />
+                                    <h3 class="featured__name">
+                                        Nike Pegasus Premium
+                                    </h3>
+                                    <p class="featured__price">$350.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="faq">
+                <div class="container">
+                    <h2 class="faq__title">Frequently asked questions</h2>
+                    <p class="faq__subtitle">
+                        Answers to our most frequently asked questions are just
+                        one click away.
+                    </p>
+
+                    <div class="faq__list">
+                        <details class="faq__item">
+                            <summary class="faq__question">
+                                What are Nike's delivery options?
+                            </summary>
+                            <p class="faq__answer">
+                                Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Soluta, omnis? Corrupti quae
+                                quibusdam delectus numquam quisquam ex, veniam
+                                hic placeat eaque cum adipisci? Architecto,
+                                molestias.
+                            </p>
+                        </details>
+
+                        <details class="faq__item" open>
+                            <summary class="faq__question">
+                                What is Nike's returns policy?
+                            </summary>
+                            <p class="faq__answer">
+                                When you shop Nike online, either in the Nike
+                                App or on Nike.com, you can return items that
+                                are unworn and unwashed and still have their
+                                product tags attached within 30 days of purchase
+                                (some exceptions apply). That includes custom
+                                Nike By You sneakers.
+                            </p>
+                        </details>
+
+                        <details class="faq__item">
+                            <summary class="faq__question">
+                                Where is my Nike order?
+                            </summary>
+                            <p class="faq__answer">
+                                Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Soluta, omnis? Corrupti quae
+                                quibusdam delectus numquam quisquam ex, veniam
+                                hic placeat eaque cum adipisci? Architecto,
+                                molestias.
+                            </p>
+                        </details>
+
+                        <details class="faq__item">
+                            <summary class="faq__question">
+                                How do I find the right size and fit?
+                            </summary>
+                            <p class="faq__answer">
+                                Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Soluta, omnis? Corrupti quae
+                                quibusdam delectus numquam quisquam ex, veniam
+                                hic placeat eaque cum adipisci? Architecto,
+                                molestias.
+                            </p>
+                        </details>
+                    </div>
+                </div>
+            </section>
+
+            <section class="spotlight">
+                <div class="container spotlight__container">
+                    <div class="spotlight__gallery">
+                        <div class="spotlight__miniatures"></div>
+                        <div class="spotlight__image-wrapper">
+                            <img
+                                src="./img/main-product-3.jpg"
+                                alt="Main product"
+                                class="spotlight__image"
+                            />
+                            <span class="spotlight__bage">Highly Rated</span>
+                        </div>
+                    </div>
+                    <div class="spotlight__info">
+                        <h2 class="spotlight__title">Nike Air Max Plus</h2>
+                        <p class="spotlight__price">$290.00</p>
+
+                        <div class="spotlight__models">
+                            <button class="spotlight__model" data-color="white">
+                                <img
+                                    src="./img/main-product-1.jpg"
+                                    alt="White model"
+                                />
+                            </button>
+                            <button class="spotlight__model" data-color="black">
+                                <img
+                                    src="./img/main-product-2.jpg"
+                                    alt="Black model"
+                                />
+                            </button>
+                            <button
+                                class="spotlight__model active"
+                                data-color="purple"
+                            >
+                                <img
+                                    src="./img/main-product-3.jpg"
+                                    alt="Purple model"
+                                />
+                            </button>
+                        </div>
+
+                        <div class="spotlight__sizes">
+                            <p class="spotlight__price-text">Select Size:</p>
+                            <div class="spotlight__sizes__container">
+                                <button class="spotlight__size">UK 5.5</button>
+                                <button class="spotlight__size active">
+                                    UK 6 (EU 39)
+                                </button>
+                                <button class="spotlight__size">
+                                    UK 6 (EU 40)
+                                </button>
+                                <button class="spotlight__size">UK 6.5</button>
+                                <button class="spotlight__size">UK 7</button>
+                                <button class="spotlight__size">UK 7.5</button>
+                            </div>
+                        </div>
+
+                        <button class="spotlight__add-to-bag">
+                            Add To Bag
+                        </button>
+
+                        <p class="spotlight__description">
+                            Let your attitude have the edge in your Nike Air Max
+                            Plus, a Tuned Air experience that offers premium
+                            stability and unbelievable cushioning.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="help">
+                <div class="container help__container">
+                    <h2 class="help__title">Need help?</h2>
+
+                    <form action="" class="help__form">
+                        <div class="help__row">
+                            <div class="help__field">
+                                <label for="name">Name</label>
+                                <input
+                                    type="text"
+                                    id="name"
+                                    placeholder="Enter name"
+                                    required
+                                />
+                            </div>
+                            <div class="help__field">
+                                <label for="number">Number</label>
+                                <input
+                                    type="number"
+                                    id="number"
+                                    placeholder="Enter Number"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="help__field">
+                            <label for="email">Email</label>
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="Enter Email"
+                                required
+                            />
+                        </div>
+
+                        <div class="help__field">
+                            <label for="message">Message</label>
+                            <textarea
+                                id="message"
+                                placeholder="Enter Message"
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="help__submit">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container footer__container">
+                <div class="footer__nav">
+                    <div class="footer__column active">
+                        <button class="footer__title">Resources</button>
+                        <div class="footer__links">
+                            <a href="#" class="footer__link"> Find a store </a>
+                            <a href="#" class="footer__link"> Nike Journal </a>
+                            <a href="#" class="footer__link">
+                                Become a Member
+                            </a>
+                            <a href="#" class="footer__link"> Feedback </a>
+                            <a href="#" class="footer__link"> Promo Codes </a>
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <button class="footer__title">Help</button>
+                        <div class="footer__links">
+                            <a href="#" class="footer__link"> Get Help </a>
+                            <a href="#" class="footer__link"> Order Status </a>
+                            <a href="#" class="footer__link">
+                                Shipping and Delivery
+                            </a>
+                            <a href="#" class="footer__link"> Returns </a>
+                            <a href="#" class="footer__link">
+                                Payment Options</a
+                            >
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <button class="footer__title">Company</button>
+                        <div class="footer__links">
+                            <a href="#" class="footer__link"> About Nike </a>
+                            <a href="#" class="footer__link"> News </a>
+                            <a href="#" class="footer__link"> Careers </a>
+                            <a href="#" class="footer__link"> Investors </a>
+                            <a href="#" class="footer__link"> Sustainability</a>
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <button class="footer__title">Menu</button>
+                        <div class="footer__links">
+                            <a href="#" class="footer__link">
+                                News & Featured
+                            </a>
+                            <a href="#" class="footer__link"> Men </a>
+                            <a href="#" class="footer__link"> Women </a>
+                            <a href="#" class="footer__link"> Kids </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__bottom">
+                    <p class="footer__copyright">
+                        © 2025 Nike, Inc. All rights reserved
+                    </p>
+                    <div class="footer__legal">
+                        <a href="#" class="footer__legal-link">Terms of Use</a>
+                        <a href="#" class="footer__legal-link"
+                            >Privacy & Cookie Policy</a
+                        >
+                        <a href="#" class="footer__legal-link"
+                            >Privacy & Cookie Setting</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div
+            class="modal"
+            id="discountModal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="discount-title"
+        >
+            <div class="modal__overlay"></div>
+            <div class="modal__content">
+                <button class="modal__close" id="modalClose"></button>
+                <div class="modal__body">
+                    <div class="modal__text">
+                        <h1 id="discount-title">
+                            HERE’S $10 OFF YOUR FIRST ORDER!
+                        </h1>
+                        <p>
+                            Join our newsletter and get a $10 discount code sent
+                            straight to your inbox. New customers only.
+                        </p>
+                        <form id="modalForm">
+                            <label for="email">Email</label>
+                            <input
+                                type="email"
+                                id="modal-email"
+                                placeholder="Enter Email"
+                                required
+                            />
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                    <div class="modal__image">
+                        <img src="./img/modal-image.jpg" alt="discount offer" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="./js/main.js" type="module"></script>
+    </body>
+</html>
