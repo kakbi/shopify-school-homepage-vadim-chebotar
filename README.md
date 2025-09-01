@@ -2,6 +2,10 @@
 
 Static homepage layout built from Figma design.
 
+## Live Demo
+
+Check out the project here: [Open Website](https://kakbi.github.io/shopify-school-homepage-vadim-chebotar/)
+
 ## Getting Started
 
 These instructions will help you get your project up and running locally.
