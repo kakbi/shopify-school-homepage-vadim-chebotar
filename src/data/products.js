@@ -1,7 +1,7 @@
 const products = {
     white: {
         price: '$290.00',
-        main: './img/main-product-1.jpg',
+        main: './src/img/main-product-1.jpg',
         miniatures: [
             './src/img/white/miniature-1.jpg',
             './src/img/white/miniature-2.jpg',
@@ -12,7 +12,7 @@ const products = {
     },
     black: {
         price: '$285.00',
-        main: './img/main-product-2.jpg',
+        main: './src/img/main-product-2.jpg',
         miniatures: [
             './src/img/black/miniature-1.jpg',
             './src/img/black/miniature-2.jpg',
@@ -23,7 +23,7 @@ const products = {
     },
     purple: {
         price: '$280.00',
-        main: './img/main-product-3.jpg',
+        main: './src/img/main-product-3.jpg',
         miniatures: [
             './src/img/purple/miniature-1.jpg',
             './src/img/purple/miniature-2.jpg',
